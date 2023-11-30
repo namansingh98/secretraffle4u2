@@ -38,14 +38,14 @@ function Nav() {
                   </Link>
 
                   <Link
-                    href="/Secretcards"
+                    href="/secretcards"
                     className="text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
                     Scratch Card
                   </Link>
 
                   <Link
-                    href="/GameExplanation"
+                    href="/gameExplanation"
                     className="text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
                     Game Explanation

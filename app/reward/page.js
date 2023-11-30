@@ -1,22 +1,22 @@
-import bgbanner from "../../assets/banner-img.png";
-import Hall_of_fame from "../../assets/Hall-of-fame.png";
-import Pro from "../../assets/Pro.png";
-import Protwo from "../../assets/protwo.png";
-import Champion from "../../assets/Champion.png";
-import Championtwo from "../../assets/championtwo.png";
-import rookie from "../../assets/Rookie.png";
-import rookietwo from "../../assets/rookietwo.png";
-import Recruit from "../../assets/Recruit.png";
-import right from "../../assets/Rectangle%2035.png";
-import left from "../../assets/Rectangle%2034.png";
-import bgshape from "../../assets/bg-shape-3.png";
-import bgshape2 from "../../assets/bg-shape-4.png";
-import icon from "../../assets/icon-1.png";
-import crown from "../../assets/2.png";
-import halloffamer from "../../assets/hall_of_famer.png";
-import bgshape3 from "../../assets/Rectangle%2046.png";
-import bgshape4 from "../../assets/Rectangle%2047.png";
-const index = () => {
+import bgbanner from "../assets/banner-img.png";
+import Hall_of_fame from "../assets/Hall-of-fame.png";
+import Pro from "../assets/Pro.png";
+import Protwo from "../assets/protwo.png";
+import Champion from "../assets/Champion.png";
+import Championtwo from "../assets/championtwo.png";
+import rookie from "../assets/Rookie.png";
+import rookietwo from "../assets/rookietwo.png";
+import Recruit from "../assets/Recruit.png";
+import right from "../assets/Rectangle%2035.png";
+import left from "../assets/Rectangle%2034.png";
+import bgshape from "../assets/bg-shape-3.png";
+import bgshape2 from "../assets/bg-shape-4.png";
+import icon from "../assets/icon-1.png";
+import crown from "../assets/2.png";
+import halloffamer from "../assets/hall_of_famer.png";
+import bgshape3 from "../assets/Rectangle%2046.png";
+import bgshape4 from "../assets/Rectangle%2047.png";
+const Reward = () => {
   return (
     <>
       <div className="w-full">
@@ -458,4 +458,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Reward;
