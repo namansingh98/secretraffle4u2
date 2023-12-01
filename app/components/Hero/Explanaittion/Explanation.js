@@ -1,6 +1,6 @@
-import horizontalLeft from "@/app/assets/horizontal-left.png";
-import horizontalRight from "@/app/assets/horizontal-right.png";
-import deposit_withdraw from "@/app/assets/deposit_withdraw.png";
+import horizontalLeft from "@/public/horizontal-left.png";
+import horizontalRight from "@/public/horizontal-right.png";
+import deposit_withdraw from "@/public/deposit_withdraw.png";
 import Image from "next/image";
 const Explanation = () => {
   return (

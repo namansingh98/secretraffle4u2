@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../../../assets/logo.png";
+import logo from "@/public/logo.png";
 import Image from "next/image";
 
-export default function Index() {
+export default function Login() {
   return (
     <div className="relative flex flex-col justify-center min-h-screen overflow-hidden loginBg">
       <div className="max-w-sm  p-6 m-auto bg-[#181818] border border-[#b4903a] rounded-md shadow-md lg:max-w-xl">

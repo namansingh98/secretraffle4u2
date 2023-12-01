@@ -1,10 +1,10 @@
-"use clients"
+"use client"
 import React, { useState, useEffect } from "react";
-import valan from "@/app/assets/valantines.jpg";
-import christmas from "@/app/assets/christmas.jpg";
-import girl from "@/app/assets/girl.png";
-import horizontalLeft from "@/app/assets/horizontal-left.png"
-import horizontalRight from "@/app/assets/horizontal-right.png"
+import valan from "@/public/valantines.jpg";
+import christmas from "@/public/christmas.jpg";
+import girl from "@/public/girl.png";
+import horizontalLeft from "@/public/horizontal-left.png"
+import horizontalRight from "@/public/horizontal-right.png"
 import Image from "next/image";
 
 const CardSection = () => {

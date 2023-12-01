@@ -1,14 +1,15 @@
-import spclofr from "../../assets/special offers.png";
-import gift from "../../assets/gifts.png";
-import gifttwo from "../../assets/gift2.png";
-import giftthree from "../../assets/gift3.png";
+import spclofr from "@/public/special offers.png";
+import gift from "@/public/gifts.png";
+import gifttwo from "@/public/gift2.png";
+import giftthree from "@/public/gift3.png";
+import Image from "next/image";
 
 const Promotions = () => {
   return (
     <>
       <div className="Promotions flex flex-col flex-wrap content-center justify-items-center mt-10">
         <div className="w-10/12  flex flex-wrap  justify-center">
-          <img src={spclofr} alt="special offer" />
+          <Image src={spclofr} alt="special offer" />
         </div>
 
         <div className="w-[80%] justify-center text-white">
@@ -101,11 +102,11 @@ const Promotions = () => {
               hours, max 24hrs.
             </p>
             <div className="flex justify-center">
-              <img src={gift} alt="" />
+              <Image src={gift} alt="" />
             </div>
             <div className="flex justify-center">
-              <img src={gifttwo} alt="" />
-              <img src={giftthree} alt="" />
+              <Image src={gifttwo} alt="" />
+              <Image src={giftthree} alt="" />
             </div>
           </div>
         </div>

@@ -3,9 +3,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import banner1 from "@/app/assets/banner1.png";
-import banner2 from "@/app/assets/banner2.png";
-import banner3 from "@/app/assets/banner3.png";
+import banner1 from "@/public/banner1.png";
+import banner2 from "@/public/banner2.png";
+import banner3 from "@/public/banner3.png";
 import { Navigation } from "swiper/modules";
 import Image from "next/image";
 

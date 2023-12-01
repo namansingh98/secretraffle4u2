@@ -1,14 +1,12 @@
-
-
-import horizontalRight from "@/app/assets/horizontal-right.png"
-import scratch from "@/app/assets/scratch.png"
-import withdrawal from "@/app/assets/withdrawal.png"
-import compliant from "@/app/assets/compliant.png"
-import verify from "@/app/assets/verify.png"
-import giftcard from "@/app/assets/giftcard.png"
-import ticket from "@/app/assets/ticket.png"
-import horizontalLeft from "@/app/assets/horizontal-left.png"
-import jackpot from "@/app/assets/jackpot.gif"
+import horizontalRight from "@/public/horizontal-right.png"
+import scratch from "@/public/scratch.png"
+import withdrawal from "@/public/withdrawal.png"
+import compliant from "@/public/compliant.png"
+import verify from "@/public/verify.png"
+import giftcard from "@/public/giftcard.png"
+import ticket from "@/public/ticket.png"
+import horizontalLeft from "@/public/horizontal-left.png"
+import jackpot from "@/public/jackpot.gif"
 import Image from "next/image"
 const ServiceCard = () => {
   return (

@@ -1,10 +1,10 @@
-import thai_man from "@/app/assets/thai_man.png"
-import philippines from "@/app/assets/philippines_women.png"
-import usa from "@/app/assets/usa_woman.png"
-import uk_man from "@/app/assets/uk_man.jpg"
-import horizontalLeft from "@/app/assets/horizontal-left.png"
-import horizontalRight from "@/app/assets/horizontal-right.png"
-import signUp from "@/app/assets/sign-up-img.png"
+import thai_man from "@/public/thai_man.png"
+import philippines from "@/public/philippines_women.png"
+import usa from "@/public/usa_woman.png"
+import uk_man from "@/public/uk_man.jpg"
+import horizontalLeft from "@/public/horizontal-left.png"
+import horizontalRight from "@/public/horizontal-right.png"
+import signUp from "@/public/sign-up-img.png"
 import Image from "next/image"
 
 const Testimonials = () => {
@@ -60,7 +60,7 @@ const Testimonials = () => {
 
       {/* Card 4 */}
       <div className="max-w-xs mx-2 my-8 text-center border-4 border-[#F5D148] shadow-md rounded-md overflow-hidden bg_gradient flex flex-wrap justify-center ">
-        <img src={thai_man} alt="thai man" className="w-1/3 rounded-full object-cover" />
+        <Image src={thai_man} alt="thai man" className="w-1/3 rounded-full object-cover" />
         <div className="p-4">
           <h2 className="text-xl text-white font-bold  mb-2">Narak_Tui</h2>
           <h3 className="text-md text-[#F5D148] mb-2"> Thailand </h3>

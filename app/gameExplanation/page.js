@@ -1,11 +1,12 @@
-import arrowBack from "../../assets/horizontal-right.png";
-import arrowFace from "../../assets/horizontal-left-white.png";
-import raffleClassic from "../../assets/raffle-classic.jpg";
-import raffleOnline from "../../assets/raffle-online.png";
-import rightMark from "../../assets/done_all.svg";
-import scratchOnline from "../../assets/scratch-online.png";
-import scratchClassic from "../../assets/scratch-classic.jpg";
-import lotteryClassic from "../../assets/lottery-classic.jpg";
+import arrowBack from "@/public/horizontal-right.png";
+import arrowFace from "@/public/horizontal-left-white.png";
+import raffleClassic from "@/public/raffle-classic.jpg";
+import raffleOnline from "@/public/raffle-online.png";
+import rightMark from "@/public/done_all.svg";
+import scratchOnline from "@/public/scratch-online.png";
+import scratchClassic from "@/public/scratch-classic.jpg";
+import lotteryClassic from "@/public/lottery-classic.jpg";
+import Image from "next/image";
 
 const Explanation = () => {
   return (
@@ -17,9 +18,9 @@ const Explanation = () => {
               Game Explanation
             </h1>
             <div className=" mt-5 mb-5 sub_heading flex justify-center items-center gap-1 text-4xl font-semibold text-white">
-              <img src={arrowBack} alt="" className="h-3" />
+              <Image src={arrowBack} alt="" className="h-3" />
               <h2>What is Raffle Game </h2>
-              <img src={arrowFace} alt="" className="h-3" />
+              <Image src={arrowFace} alt="" className="h-3" />
             </div>
             <div className="flex justify-center justify-items-center items-center">
               <div className="w-10/12 text-[#D4C07E] ">
@@ -55,7 +56,7 @@ const Explanation = () => {
                 <div className="flex w-full justify-center items-center">
                   {/* Image on the left side */}
                   <div className="flex justify-center items-center">
-                    <img
+                    <Image
                       src={raffleClassic}
                       alt="raffle Classic"
                       className="w-1/2 border-white border-2"
@@ -70,24 +71,24 @@ const Explanation = () => {
 
                     <ul className="list-none pl-6 mb-4 ">
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         You would go to an event, at the entrance they would
                         usually sell you “Numbered Raffle Tickets” which are in
                         a sequence.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         Once you buy these raffle tickets at the event, you will
                         have a copy and organizers have a copy of your tickets.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         All the “Raffle Tickets” are than put in a bowl or
                         container and someone would put their hand inside the
                         bowl and pick a ticket randomly without looking inside.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         The winning raffle ticket picked are than checked
                         against a collection of prizes and the holder of the
                         chosen raffle ticket wins that prize
@@ -104,35 +105,35 @@ const Explanation = () => {
 
                     <ul className="list-none pl-6 mb-4">
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         We have created our own “Online Raffle Game” system so
                         you don’t have to go to any events, you can just do it
                         by a click of a button now.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         You can buy “Raffle Tickets” for any game you like,
                         however many tickets you want.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         Our system will generate your random ticket numbers from
                         the available numbers left in the system.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         Once we have sold the minimum amount of tickets, our
                         countdown timer will stop atomically.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         Within 5 minutes of the game stopping, our system will
                         pick random tickets from all the tickets sold and will
                         allocate winners for every prize position we have
                         available.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         You can than check in your user’s dashboard under “My
                         Raffle Winnings”.
                       </li>
@@ -141,7 +142,7 @@ const Explanation = () => {
 
                   {/* Image on the right side */}
                   <div className="flex justify-center items-center">
-                    <img
+                    <Image
                       src={raffleOnline}
                       alt="raffle Online"
                       className="w-8/12 "
@@ -155,9 +156,9 @@ const Explanation = () => {
         <div className="flex justify-center  place-items-center ">
           <div className="main_heading ">
             <div className=" mt-5 mb-5 sub_heading flex justify-center items-center gap-1 text-4xl font-semibold text-white">
-              <img src={arrowBack} alt="" className="h-3" />
+              <Image src={arrowBack} alt="" className="h-3" />
               <h2> What is Lottery Game </h2>
-              <img src={arrowFace} alt="" className="h-3" />
+              <Image src={arrowFace} alt="" className="h-3" />
             </div>
             <div className="flex justify-center justify-items-center items-center">
               <div className="w-10/12 text-[#D4C07E] ">
@@ -178,7 +179,7 @@ const Explanation = () => {
                 <div className="flex w-full justify-center items-center">
                   {/* Image on the left side */}
                   <div className="flex justify-center items-center">
-                    <img
+                    <Image
                       src={scratchClassic}
                       alt="raffle Classic"
                       className="w-1/2 border-white border-2"
@@ -193,26 +194,26 @@ const Explanation = () => {
 
                     <ul className="list-none pl-6 mb-4 ">
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         When scratch cards first came out, you could walk into
                         your local groceries store and buy various scratch cards
                         with different jackpots.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         Once you have purchased your scratch cards, you would
                         either use a coin or your finger to scratch the card to
                         see if you have won any prizes.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         If you have won a prize, small prize amounts can be
                         claimed at the same groceries store and for bigger
                         amounts you would have to contact the number behind the
                         scratch card to make claim of your winnings.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         After a month or two, you would receive a cheque or bank
                         transfer of your winnings.
                       </li>
@@ -228,24 +229,24 @@ const Explanation = () => {
 
                     <ul className="list-none pl-6 mb-4">
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         You would go to an event, at the entrance they would
                         usually sell you “Numbered Raffle Tickets” which are in
                         a sequence.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         Once you buy these raffle tickets at the event, you will
                         have a copy and organizers have a copy of your tickets.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         All the “Raffle Tickets” are than put in a bowl or
                         container and someone would put their hand inside the
                         bowl and pick a ticket randomly without looking inside.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         The winning raffle ticket picked are than checked
                         against a collection of prizes and the holder of the
                         chosen raffle ticket wins that prize
@@ -255,7 +256,7 @@ const Explanation = () => {
 
                   {/* Image on the right side */}
                   <div className="flex justify-center items-center">
-                    <img
+                    <Image
                       src={scratchOnline}
                       alt="raffle Classic"
                       className="w-8/2"
@@ -269,9 +270,9 @@ const Explanation = () => {
         <div className="flex justify-center  place-items-center ">
           <div className="main_heading ">
             <div className=" mt-5 mb-5 sub_heading flex justify-center items-center gap-1 text-4xl font-semibold text-white">
-              <img src={arrowBack} alt="" className="h-3" />
+              <Image src={arrowBack} alt="" className="h-3" />
               <h2> What is Lottery Game </h2>
-              <img src={arrowFace} alt="" className="h-3" />
+              <Image src={arrowFace} alt="" className="h-3" />
             </div>
             <div className="flex justify-center justify-items-center items-center">
               <div className="w-10/12 text-[#D4C07E] ">
@@ -292,7 +293,7 @@ const Explanation = () => {
                 <div className="flex w-full justify-center items-center">
                   {/* Image on the left side */}
                   <div className="flex justify-center items-center">
-                    <img
+                    <Image
                       src={lotteryClassic}
                       alt="raffle Classic"
                       className="w-1/2 border-white border-2"
@@ -307,26 +308,26 @@ const Explanation = () => {
 
                     <ul className="list-none pl-6 mb-4 ">
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         You would go to your local licensed lottery tickets
                         vendor and various groceries and super stores before a
                         certain time.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         In the shop/store, you would take a blank lottery ticket
                         and start choosing your numbers, or you would buy
                         lottery tickets with various numbers on them already.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         Once the lottery draw has been done, you would check to
                         see if you have won anything, if yes you would follow
                         the process behind the lottery ticket to claim your
                         winnings.
                       </li>
                       <li className="flex items-center mt-5 gap-2">
-                        <img src={rightMark} alt="" />
+                        <Image src={rightMark} alt="" />
                         Similar process to claiming your winnings from “Scratch
                         Cards”.
                       </li>

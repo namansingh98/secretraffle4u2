@@ -1,7 +1,7 @@
 import {accordionData} from "./Data.js"
 import Accordion from "./Accordion";
-import horizontalRight from "@/app/assets/horizontal-right.png"
-import horizontalLeft from "@/app/assets/horizontal-left.png"
+import horizontalRight from "@/public/horizontal-right.png"
+import horizontalLeft from "@/public/horizontal-left.png"
 import Image from "next/image.js";
 export default function Faq() {
 

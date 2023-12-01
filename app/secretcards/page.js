@@ -1,18 +1,21 @@
 import React from "react";
 import { IoMdInformationCircleOutline } from "react-icons/io";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
-import arrowFace from "../../assets/horizontal-left.png";
-import arrowBack from "../../assets/horizontal-right.png";
-import silver from "../../assets/silver.png";
-import platCard from "../../assets/platinamcard.png";
-import vipCard from "../../assets/vipcard.png";
-import kingCrown from "../../assets/kingcrown.png";
-import goldCard from "../../assets/goldcard.png";
-import clover from "../../assets/clover.png";
-import green from "../../assets/green.png";
-import star from "../../assets/start.png";
-import happy from "../../assets/happycard.png";
-import ring from "../../assets/64ae9a3f206211689164351.png";
+import arrowFace from "@/public/horizontal-left.png";
+import arrowBack from "@/public/horizontal-right.png";
+import silver from "@/public/silver.png";
+import platCard from "@/public/platinamcard.png";
+import vipCard from "@/public/vipcard.png";
+import kingCrown from "@/public/kingcrown.png";
+import goldCard from "@/public/goldcard.png";
+import clover from "@/public/clover.png";
+import green from "@/public/green.png";
+import star from "@/public/start.png";
+import happy from "@/public/happycard.png";
+import ring from "@/public/64ae9a3f206211689164351.png";
+import Image from "next/image";
+
+
 const Card = ({ imagePath, jackpot, cardType, price, icon, img }) => {
   return (
     <div className="max-w-md overflow-hidden shadow-lg m-4 border-[#AC8A4D] border-2 text-center">
@@ -26,7 +29,7 @@ const Card = ({ imagePath, jackpot, cardType, price, icon, img }) => {
       </div>
       <div className="mx-auto w-full">
         <div className="card_bgmain mx-auto p-5">
-          <img
+          <Image
             className="mx-auto w-[80%] h-48 object-fill border-2 border-[#AC8A4D] bgshadow"
             src={imagePath}
             alt="Card Image"
@@ -41,14 +44,14 @@ const Card = ({ imagePath, jackpot, cardType, price, icon, img }) => {
       </div>
       <div className="px-6 bg-[#2A2522] border-t-2 border-[#AC8A4D] pt-4 pb-2">
         <div className="flex justify-between items-center">
-          <img
+          <Image
             src={img}
             alt=""
             className="h-7 w-7 rounded-full border-1 border-[#AC8A4D]"
           />
 
           <div className="text-base text-white">
-            price per card <del className="font-semibold">{price}</del>{" "}
+            price per card <del className="font-semibold">{price}</del>
           </div>
           <IoMdInformationCircleOutline className="text-white text-2xl " />
         </div>
@@ -105,9 +108,9 @@ const Cards = () => {
   return (
     <section className="secretCard">
       <div className="mt-5 mb-5 sub_heading flex justify-center items-center gap-1 text-4xl font-semibold text-white">
-        <img src={arrowBack} alt="" className="h-3" />
+        <Image src={arrowBack} alt="" className="h-3" />
         <h2 className="secretHeading">What is Raffle Game </h2>
-        <img src={arrowFace} alt="" className="h-3" />
+        <Image src={arrowFace} alt="" className="h-3" />
       </div>
       <div className="flex flex-wrap justify-center">
         {cardsData.map((card, index) => (
@@ -115,9 +118,9 @@ const Cards = () => {
         ))}
       </div>
       <div className="mt-5 mb-5 sub_heading flex justify-center items-center gap-1 text-4xl font-semibold text-white">
-        <img src={arrowBack} alt="" className="h-3" />
+        <Image src={arrowBack} alt="" className="h-3" />
         <h2 className="secretHeading">AVAILABLE TO BUY</h2>
-        <img src={arrowFace} alt="" className="h-3" />
+        <Image src={arrowFace} alt="" className="h-3" />
       </div>
       <div className="flex flex-wrap justify-center">
         {cardsData.map((card, index) => (

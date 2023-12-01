@@ -1,12 +1,12 @@
-import phonePe from "@/app/assets/phonepe.png";
-import paypal from "@/app/assets/paypal.png";
-import expat from "@/app/assets/expat.png";
-import plus from "@/app/assets/18plus.png";
-import responsibly from "@/app/assets/responsibly.png";
-import satisfaction from "@/app/assets/satisfaction.png";
-import guaranteed from "@/app/assets/guaranteed.png";
+import phonePe from "@/public/phonepe.png";
+import paypal from "@/public/paypal.png";
+import expat from "@/public/expat.png";
+import plus from "@/public/18plus.png";
+import responsibly from "@/public/responsibly.png";
+import satisfaction from "@/public/satisfaction.png";
+import guaranteed from "@/public/guaranteed.png";
 
-import logo from "@/app/assets/logo.png";
+import logo from "@/public/logo.png";
 import Image from "next/image";
 const Footer = () => {
   return (
@@ -32,7 +32,7 @@ const Footer = () => {
             <li>Contact Us</li>
             <li>FAQs</li>
             <li>Payment Guaranteed Policy</li>
-            <li><a href="/promotions">Promotions Details</a></li>
+            <li><a href="/promotion">Promotions Details</a></li>
           </ul>
         </div>
 
