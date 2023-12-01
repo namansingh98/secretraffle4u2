@@ -15,7 +15,6 @@ import happy from "@/public/happycard.png";
 import ring from "@/public/64ae9a3f206211689164351.png";
 import Image from "next/image";
 
-
 const Card = ({ imagePath, jackpot, cardType, price, icon, img }) => {
   return (
     <div className="max-w-md overflow-hidden shadow-lg m-4 border-[#AC8A4D] border-2 text-center">
@@ -33,7 +32,8 @@ const Card = ({ imagePath, jackpot, cardType, price, icon, img }) => {
             className="mx-auto w-[80%] h-48 object-fill border-2 border-[#AC8A4D] bgshadow"
             src={imagePath}
             alt="Card Image"
-          />
+            width={600}
+            height={192}        />
           <div className="flex mt-3 justify-center">
             <button className="buybtn border border-white text-white">
               {icon}
@@ -46,8 +46,10 @@ const Card = ({ imagePath, jackpot, cardType, price, icon, img }) => {
         <div className="flex justify-between items-center">
           <Image
             src={img}
-            alt=""
+            alt="img"
             className="h-7 w-7 rounded-full border-1 border-[#AC8A4D]"
+            height={28}
+            width={28}
           />
 
           <div className="text-base text-white">
@@ -108,9 +110,15 @@ const Cards = () => {
   return (
     <section className="secretCard">
       <div className="mt-5 mb-5 sub_heading flex justify-center items-center gap-1 text-4xl font-semibold text-white">
-        <Image src={arrowBack} alt="" className="h-3" />
+        <Image src={arrowBack} alt="back" className="h-3" />
         <h2 className="secretHeading">What is Raffle Game </h2>
-        <Image src={arrowFace} alt="" className="h-3" />
+        <Image
+          src={arrowFace}
+          alt="face"
+          className="h-3"
+          width={100}
+          height={100}
+        />
       </div>
       <div className="flex flex-wrap justify-center">
         {cardsData.map((card, index) => (
@@ -118,9 +126,21 @@ const Cards = () => {
         ))}
       </div>
       <div className="mt-5 mb-5 sub_heading flex justify-center items-center gap-1 text-4xl font-semibold text-white">
-        <Image src={arrowBack} alt="" className="h-3" />
+        <Image
+          src={arrowBack}
+          alt="back"
+          className="h-3"
+          width={100}
+          height={100}
+        />
         <h2 className="secretHeading">AVAILABLE TO BUY</h2>
-        <Image src={arrowFace} alt="" className="h-3" />
+        <Image
+          src={arrowFace}
+          alt="face"
+          className="h-3"
+          height={100}
+          width={100}
+        />
       </div>
       <div className="flex flex-wrap justify-center">
         {cardsData.map((card, index) => (

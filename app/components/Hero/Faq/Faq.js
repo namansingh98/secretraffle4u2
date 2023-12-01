@@ -11,7 +11,7 @@ export default function Faq() {
       <div className="w-full flex items-center justify-center text-white md:text-xl xl:text-2xl text-md  font-semibold">
         <Image
           src={horizontalRight}
-          alt=""
+          alt="right"
           className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]    "
         />
         <div className="flex items-center">
@@ -20,7 +20,7 @@ export default function Faq() {
           &nbsp; &nbsp;{" "}
           <Image
             src={horizontalLeft}
-            alt=""
+            alt="left"
             className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]"
           />
         </div>

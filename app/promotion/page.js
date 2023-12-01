@@ -102,11 +102,11 @@ const Promotions = () => {
               hours, max 24hrs.
             </p>
             <div className="flex justify-center">
-              <Image src={gift} alt="" />
+              <Image src={gift} alt="gift" />
             </div>
             <div className="flex justify-center">
-              <Image src={gifttwo} alt="" />
-              <Image src={giftthree} alt="" />
+              <Image src={gifttwo} alt="two" />
+              <Image src={giftthree} alt="three" />
             </div>
           </div>
         </div>

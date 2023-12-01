@@ -1,4 +1,3 @@
-"use client"
 import Slider from "./Swiper/Slider";
 import ServiceCard from "./ServiceCard/ServiceCard";
 import Faq from "./Faq/Faq";

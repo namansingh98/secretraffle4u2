@@ -7,7 +7,7 @@ export default function Login() {
     <div className="relative flex flex-col justify-center min-h-screen overflow-hidden loginBg">
       <div className="max-w-sm  p-6 m-auto bg-[#181818] border border-[#b4903a] rounded-md shadow-md lg:max-w-xl">
         <div className="flex items-center justify-center">
-          <Image src={logo} alt="logo" className="w-1/2 " />
+          <Image src={logo} alt="logo" height={auto} width={"50%"} className="w-1/2 " />
         </div>
         <h1 className="text-3xl font-semibold text-center login_head underline">
           Sign in

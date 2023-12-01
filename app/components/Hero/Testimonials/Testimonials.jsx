@@ -12,7 +12,7 @@ const Testimonials = () => {
     <>    <div className=" items-center flex font-semibold justify-center text-white md:text-xl xl:text-2xl text-md ">
     <Image
       src={horizontalRight}
-      alt=""
+      alt="right"
       className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]   "
     />
     <div className="flex items-center">
@@ -21,7 +21,7 @@ const Testimonials = () => {
       &nbsp; &nbsp;{" "}
       <Image
         src={horizontalLeft}
-        alt=""
+        alt="left"
         className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]"
       />
     </div>
@@ -73,7 +73,7 @@ const Testimonials = () => {
     <div className="items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-xl ">
         <Image
           src={horizontalRight}
-          alt=""
+          alt="right"
           className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]   "
         />
         <div className="flex items-center">
@@ -84,7 +84,7 @@ const Testimonials = () => {
           &nbsp; &nbsp;{" "}
           <Image
             src={horizontalLeft}
-            alt=""
+            alt="left"
             className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]"
           />
         </div>

@@ -186,7 +186,7 @@
 }
 
 .sitebg {
-  background: url("/public/site-bg.png");
+  background: url("/site-bg.png");
   background-color: transparent;
   background-size: cover;
 }

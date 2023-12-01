@@ -186,7 +186,7 @@
 }
 
 .sitebg {
-  background: url("/app/assets/site-bg.png");
+  background: url(" site-bg.png");
   background-color: transparent;
   background-size: cover;
 }
