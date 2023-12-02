@@ -15,7 +15,7 @@ function Nav() {
   return (
     <div>
       <div className="banner w-full bg-[#212529] flex items-center place-content-center ">
-        <Image src={logo} alt="logo" className="w-1/2 md:w-1/3 xl:w-1/5 m-5" />
+        <Image src={logo} alt="logo" className="w-1/2 md:w-1/3 xl:w-1/5 m-5" priority/>
       </div>
       <nav className="bg-[#487644]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -31,7 +31,7 @@ function Nav() {
                   </Link>
 
                   <Link
-                    href="#"
+                    href="/LuckGames"
                     className="text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
                     Lucky Draw Games

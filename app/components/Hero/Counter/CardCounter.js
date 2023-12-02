@@ -93,8 +93,7 @@ const CardSection = () => {
             src={valan}
             alt="Card Image 1"
             className="mt-4 h-[50%] w-[60%] rounded-xl border-2 border-[#F5D148]"
-            layout="fill"
-objectFit="cover" 
+
           />
         </div>
         <div className="mt-2 text-lg font-bold">

@@ -16,6 +16,7 @@ import ring from "@/public/64ae9a3f206211689164351.png";
 import Image from "next/image";
 
 const Card = ({ imagePath, jackpot, cardType, price, icon, img }) => {
+  console.log({ imagePath, jackpot, cardType, price, icon, img })
   return (
     <div className="max-w-md overflow-hidden shadow-lg m-4 border-[#AC8A4D] border-2 text-center">
       <div className="px-6 py-4 bg-[#2A2522] border-b-2 border-[#AC8A4D] ">
