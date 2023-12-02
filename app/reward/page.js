@@ -7,22 +7,26 @@ import Championtwo from "@/public/championtwo.png";
 import rookie from "@/public/Rookie.png";
 import rookietwo from "@/public/rookietwo.png";
 import Recruit from "@/public/Recruit.png";
-import right from "@/public/Rectangle%2035.png";
-import left from "@/public/Rectangle%2034.png";
+import right from "@/public/rightgoldbig.png";
+import left from "@/public/leftgoldbig.png";
 import bgshape from "@/public/bg-shape-3.png";
 import bgshape2 from "@/public/bg-shape-4.png";
 import icon from "@/public/icon-1.png";
 import crown from "@/public/2.png";
 import halloffamer from "@/public/hall_of_famer.png";
-import bgshape3 from "@/public/Rectangle%2046.png";
-import bgshape4 from "@/public/Rectangle%2047.png";
+import bgshape3 from "@/public/leftwhite.png";
+import bgshape4 from "@/public/rightwhite.png";
 import Image from "next/image";
 const Reward = () => {
   return (
     <>
-      <div className="w-full">
-        <div className="banner_reward w-full flex justify-center items-center">
-          <Image src={bgbanner} alt="bgbanner" className="max-w-full w-2/4 p-5" />
+      <div className="w-full ">
+        <div className="banner_reward w-full  flex justify-center items-center">
+          <Image
+            src={bgbanner}
+            alt="bgbanner"
+            className="max-w-full w-2/4 p-5"
+          />
         </div>
         <div className="w-full mt-20 reward_status">
           <div className="overflow-x-auto">
@@ -53,7 +57,7 @@ const Reward = () => {
                 className="w-[10%] object-fill h-[10%]"
               />
             </div>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center p-10">
               <table className="w-4/5 rounded-t-xl  text-center table-auto">
                 <thead className="thead_none" style={{ border: "none" }}>
                   <tr className="reward_table_heading text-[#252525]">
@@ -112,30 +116,48 @@ const Reward = () => {
           />
 
           <div className=" flex justify-center items-center mt-20">
-            <h1 className="text-6xl font-bold reward_heading">
-              <Image src={left} alt="left" className="" width={100} height={100} />
+            <h1 className="text-6xl font-bold reward_heading flex justify-center items-center gap-2">
+              <Image
+                src={right}
+                alt="right"
+                className=""
+                width={200}
+                height={10}
+              />
               Commision <span className="reward_sub"> Rules</span>
-              <Image src={right} alt="right" width={100} height={100}/>
+              <Image src={left} alt="left" width={200} height={10} />
             </h1>
           </div>
           <div className=" flex m-20 justify-center items-center text-white font-semibold text-xl">
             <div className="w-3/4 ">
               <ul>
                 <li className="mb-10 flex">
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-5" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-5"
+                  />
                   To earn commission, all the players under you have to deposit
                   $50 by the 7th of each month. Commission will be calculated
                   last week of each month and then deposited to your
                   playersaccount.
                 </li>
                 <li className="mb-10 flex">
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-5" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-5"
+                  />
                   If you have 1,000 players under you. Minimum 10% of players
                   must deposit $50 before the 7th of each month to be eligible
                   for commission. 900+ players minimum to receive commission.
                 </li>
                 <li className="mb-10 flex">
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-5" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-5"
+                  />
                   For example: If 899 make deposit, commission will be canceled.
                 </li>
               </ul>
@@ -145,14 +167,14 @@ const Reward = () => {
       </div>
       <div className="mt-20 ">
         <div className="flex justify-center items-center">
-          <h1 className="reward_heading font-semibold text-6xl relative flex">
-            <Image src={left} alt="left" />
+          <h1 className="reward_heading flex justify-center items-center font-semibold text-6xl relative ">
+            <Image src={right} alt="right" />
             Secret Raffle 4U
             <span className="reward_sub">
               VIP
               <Image src={crown} alt="crown" className="absolute bottom-12 " />
             </span>
-            <Image src={right} alt="right" />
+            <Image src={left} alt="left" />
           </h1>
         </div>
       </div>
@@ -170,12 +192,20 @@ const Reward = () => {
             <div className="mt-5 text-white">
               <ul>
                 <li className="mb-10 flex justify-start">
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-3"
+                  />
                   All new players begin as a recruit.
                 </li>
                 <li className="mb-10 flex">
                   {" "}
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-3"
+                  />
                   You will receive 1% commission for every sign up under
                   referral link.
                 </li>
@@ -199,18 +229,30 @@ const Reward = () => {
             <div className="mt-5 text-white">
               <ul>
                 <li className="mb-10 flex justify-start">
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-3"
+                  />
                   To become Rookie, you have to have 2,000 players.
                 </li>
                 <li className="mb-10 flex">
                   {" "}
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-3"
+                  />
                   All 2,000 players must deposit $50 minimum/month to get 1.5%
                   commission.
                 </li>
                 <li className="mb-10 flex">
                   {" "}
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-3"
+                  />
                   Deposit $60,000 to move to level - 2
                 </li>
               </ul>
@@ -232,18 +274,30 @@ const Reward = () => {
             <div className="mt-5 text-white">
               <ul>
                 <li className="mb-10 flex justify-start">
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-3"
+                  />
                   To become Pro, you have to have 3,000 players.
                 </li>
                 <li className="mb-10 flex">
                   {" "}
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-3"
+                  />
                   All 3,000 players must deposit $50 minimum/month to get 2%
                   commission.
                 </li>
                 <li className="mb-10 flex">
                   {" "}
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-3"
+                  />
                   Deposit $90,000 to move to level - 3
                 </li>
               </ul>
@@ -265,18 +319,30 @@ const Reward = () => {
             <div className="mt-5 text-white">
               <ul>
                 <li className="mb-10 flex justify-start">
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-3"
+                  />
                   To become Champion, you have to have 4,000 players.
                 </li>
                 <li className="mb-10 flex">
                   {" "}
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-3"
+                  />
                   All 4,000 players must deposit $50 minimum/month to get 2.5%
                   commission.
                 </li>
                 <li className="mb-10 flex">
                   {" "}
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-3"
+                  />
                   Deposit $120,000 to move to level - 4
                 </li>
               </ul>
@@ -298,18 +364,30 @@ const Reward = () => {
             <div className="mt-5 text-white">
               <ul>
                 <li className="mb-10 flex justify-start">
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-3"
+                  />
                   To become Hall of Famer, you have to have 5,555 players.
                 </li>
                 <li className="mb-10 flex">
                   {" "}
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-3"
+                  />
                   All 5,555 players must deposit $50 minimum/month to get 3%
                   commission.
                 </li>
                 <li className="mb-10 flex">
                   {" "}
-                  <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3" />
+                  <Image
+                    src={icon}
+                    alt="icon"
+                    className="w-[30px] h-[30px] mr-3"
+                  />
                   Deposit $155,000 to move to level - 5
                 </li>
               </ul>
@@ -319,16 +397,20 @@ const Reward = () => {
       </div>
       <div className="mt-20 ">
         <div className="flex justify-center items-center">
-          <h1 className="reward_heading font-semibold text-4xl relative flex mb-2">
-            <Image src={bgshape3} alt="shape" />
-            Enjoy Earning Referral Commission With Us
+          <h1 className="reward_heading gap-2 font-semibold text-4xl relative flex justify-center items-center mb-2">
             <Image src={bgshape4} alt="shape" />
+            Enjoy Earning Referral Commission With Us
+            <Image src={bgshape3} alt="shape" />
           </h1>
         </div>
         <div className="subtext flex justify-center items-center justify-items-center text-white font-semibold ">
           <ul>
             <li className="flex mb-2">
-              <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3 " />
+              <Image
+                src={icon}
+                alt="icon"
+                className="w-[30px] h-[30px] mr-3 "
+              />
               We have created “5 Levels” for various commissions, starting from
               1% to 3%.
             </li>
@@ -347,10 +429,10 @@ const Reward = () => {
       </div>
       <div className="mt-20 ">
         <div className="flex justify-center items-center">
-          <h1 className="reward_heading font-semibold text-4xl relative flex mb-2">
-            <Image src={bgshape3} alt="shape" />
-            Secret Raffle 4U VIP Members Club
+          <h1 className="reward_heading font-semibold text-4xl relative flex justify-center items-center gap-2 mb-2">
             <Image src={bgshape4} alt="shape" />
+            Secret Raffle 4U VIP Members Club
+            <Image src={bgshape3} alt="shape" />
           </h1>
         </div>
         <div className="subtext flex justify-center items-center justify-items-center text-white font-semibold ">
@@ -366,10 +448,10 @@ const Reward = () => {
       </div>
       <div className="mt-20 ">
         <div className="flex justify-center items-center">
-          <h1 className="reward_sub font-semibold text-4xl relative flex mb-2">
-            <Image src={bgshape3} alt="shape" />
-            VIP Membership Bonus
+          <h1 className="reward_sub font-semibold text-4xl relative flex justify-center items-center gap-2 mb-2">
             <Image src={bgshape4} alt="shape" />
+            VIP Membership Bonus
+            <Image src={bgshape3} alt="shape" />
           </h1>
         </div>
         <div className="flex text-center justify-items-center justify-center text-white">
@@ -382,7 +464,11 @@ const Reward = () => {
         <div className="subtext flex justify-center  justify-items-center text-white font-semibold ">
           <ul>
             <li className="flex mb-2">
-              <Image src={icon} alt="icon" className="w-[30px] h-[30px] mr-3 " />
+              <Image
+                src={icon}
+                alt="icon"
+                className="w-[30px] h-[30px] mr-3 "
+              />
               $1,000 receive 10%
             </li>
 
@@ -413,10 +499,10 @@ const Reward = () => {
       </div>
       <div className="mt-20 ">
         <div className="flex justify-center items-center">
-          <h1 className="reward_sub font-semibold text-4xl relative flex mb-2">
-            <Image src={bgshape3} alt="shape" />
-            Secret Raffle 4U VIP Members Club
+          <h1 className="reward_sub font-semibold text-4xl relative flex justify-center items-center gap-2 mb-2">
             <Image src={bgshape4} alt="shape" />
+            Secret Raffle 4U VIP Members Club
+            <Image src={bgshape3} alt="shape" />
           </h1>
         </div>
         <div className="subtext flex justify-center items-center justify-items-center text-white font-semibold ">
@@ -431,10 +517,10 @@ const Reward = () => {
       </div>
       <div className="mt-20 ">
         <div className="flex justify-center items-center">
-          <h1 className="reward_sub font-semibold text-4xl relative flex mb-2">
-            <Image src={bgshape3} alt="shape" />
-            Secret Raffle 4U VIP Members Club
+          <h1 className="reward_sub font-semibold text-4xl relative flex justify-center items-center gap-2 mb-2">
             <Image src={bgshape4} alt="shape" />
+            Secret Raffle 4U VIP Members Club
+            <Image src={bgshape3} alt="shape" />
           </h1>
         </div>
         <div className="subtext flex justify-center flex-col items-center  text-white font-semibold ">
