@@ -8,6 +8,7 @@ import guaranteed from "@/public/guaranteed.png";
 
 import logo from "@/public/logo.png";
 import Image from "next/image";
+import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-[#252A25]  py-12 mt-10">
@@ -26,13 +27,13 @@ const Footer = () => {
             Information
           </h2>
           <ul className="list-none text-white text-xl leading-10 font-semibold">
-            <li>Terms and Condition</li>
+            <Link href="/terms">Terms and Condition</Link>
             <li>Privacy and Policy</li>
             <li>About Us</li>
             <li>Contact Us</li>
             <li>FAQs</li>
             <li>Payment Guaranteed Policy</li>
-            <li><a href="/promotion">Promotions Details</a></li>
+            <Link href="/promotion">Promotions Details</Link>
           </ul>
         </div>
 
