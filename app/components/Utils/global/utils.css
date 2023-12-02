@@ -228,3 +228,10 @@
 .bgshadow {
   box-shadow: 3px 5px 15px 0px rgba(0, 0, 0, 0.55);
 }
+
+.draw_heading {
+  background: linear-gradient(to bottom, #bcc6cc, #eee, #bcc6cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+ }

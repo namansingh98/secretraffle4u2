@@ -31,7 +31,7 @@ function Nav() {
                   </Link>
 
                   <Link
-                    href="/LuckGames"
+                    href="/luckyDraw"
                     className="text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
                     Lucky Draw Games
@@ -135,38 +135,44 @@ function Nav() {
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <Link
-                  href="#"
+                  href="home"
                   className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Dashboard
+                  Home
                 </Link>
 
                 <Link
-                  href="#"
+                     href="/luckyDrawGames"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Team
+                    Lucky Draw Games"
                 </Link>
 
                 <Link
-                  href="#"
+                 href="/secretcards"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Projects
+                   SecretCards
                 </Link>
 
                 <Link
-                  href="#"
+                     href="/gameExplanation"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Calendar
+                       Game Explanation
                 </Link>
 
                 <Link
-                  href="#"
+                 href="/reward"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Reports
+                  Rewards
+                </Link>
+                <Link
+                href="/login"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Register/Login
                 </Link>
               </div>
             </div>
