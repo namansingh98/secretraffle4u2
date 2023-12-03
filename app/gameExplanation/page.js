@@ -14,10 +14,10 @@ const Explanation = () => {
       <div className="sitebg w-full mt-10">
         <div className="flex justify-center  place-items-center ">
           <div className="main_heading ">
-            <h1 className="text-6xl text-center reward_sub font-semibold ">
+            <h1 className=" text-center reward_sub  text-5xl lg:text-6xl font-semibold mb-4 ">
               Game Explanation
             </h1>
-            <div className=" mt-5 mb-5 sub_heading flex justify-center items-center gap-1 text-4xl font-semibold text-white">
+            <div className=" mt-5 mb-5 sub_heading flex justify-center items-center gap-1 md:text-4xl xl:text-5xl sm:text-2xl font-semibold text-white">
               <Image src={arrowBack} alt="back" className="h-3" />
               <h2>What is Raffle Game </h2>
               <Image src={arrowFace} alt="face" className="h-3" />
@@ -40,7 +40,7 @@ const Explanation = () => {
                 on. This continues until all prizes have been won.
               </div>
             </div>
-            <div className="flex mt-5  text-[#D4C07E] justify-center flex-col justify-items-center items-center">
+            <div className="flex mt-5 text-center text-[#D4C07E] justify-center flex-col justify-items-center items-center">
               <h2 className="text-4xl">Raffle Game and Lucky Draw</h2>
               <p className="text-md mt-2">
                 are popular fun time game in many countries, so we decide to
@@ -50,11 +50,11 @@ const Explanation = () => {
             </div>
             <section className="relative py-20">
               <div className="container mx-auto px-4">
-                <div className="items-center flex flex-wrap">
-                  <div className="w-full flex items-center justify-center md:w-4/12 ml-auto mr-auto px-4">
+                <div className="items-center flex gap-2 flex-wrap">
+                  <div className="w-full flex items-center justify-center md:w-4/12 ml-auto mr-auto px-4 ">
                     <Image
                       alt="raffleOnline"
-                      className="w-8/12 border-2 border-white shadow-lg"
+                      className="w-8/12 border-2 border-white shadow-lg "
                       src={raffleClassic}
                     />
                   </div>
@@ -254,10 +254,10 @@ const Explanation = () => {
                 </div>
               </div>
             </section>
-            <h1 className="text-6xl text-center reward_sub font-semibold ">
+            <h1 className="lg:text-6xl text-center md:text-4xl sm:text-2-xl reward_sub font-semibold ">
               What is Scratch Card Game
             </h1>
-            <div className=" mt-5 mb-5 sub_heading flex justify-center items-center gap-1 text-4xl font-semibold text-white">
+            <div className=" mt-5 mb-5 sub_heading flex justify-center items-center gap-1 md:text-4xl xl:text-5xl sm:text-2xl font-semibold text-white">
               <Image src={arrowBack} alt="back" className="h-3" />
               <h2>What is Raffle Game </h2>
               <Image src={arrowFace} alt="face" className="h-3" />
@@ -282,7 +282,7 @@ const Explanation = () => {
                   <div className="w-full md:w-4/12 ml-auto mr-auto px-4 flex items-center justify-center">
                     <Image
                       alt="raffleOnline"
-                      className="w-8/12  shadow-lg border-2 border-white" 
+                      className="w-8/12  shadow-lg border-2 border-white"
                       src={scratchClassic}
                     />
                   </div>
@@ -455,9 +455,9 @@ const Explanation = () => {
                   </div>
                 </div>
               </div>
-            </section>{" "}
+            </section>
             <div className="main_heading ">
-              <div className=" mt-5 mb-5 sub_heading flex justify-center items-center gap-1 text-4xl font-semibold text-white">
+              <div className=" mt-5 mb-5 sub_heading flex justify-center items-center gap-1 md:text-4xl xl:text-5xl sm:text-2xl font-semibold text-white">
                 <Image src={arrowBack} alt="back" className="h-3" />
                 <h2>What is Lottery Game </h2>
                 <Image src={arrowFace} alt="face" className="h-3" />
