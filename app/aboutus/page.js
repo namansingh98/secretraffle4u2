@@ -4,19 +4,19 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className="Promotions flex flex-col flex-wrap content-center justify-items-center mt-10">
-        <div className="w-full sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-7/12 mx-auto">
-        <Image src={aboutus} alt="About us" className="mx-auto" />
+      <div className="w-10/12  flex flex-wrap  justify-center">
+        <Image src={aboutus} alt="Term & condition" />
       </div>
-      <div className="w-full sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-7/12 mx-auto text-white">
+
+      <div className="w-[80%] justify-center text-white">
         <div className="flex justify-center flex-col">
           <h1 className="text-4xl mb-5 text-center text-[#009900] font-semibold">
             About Us
           </h1>
-          <div className="sm:p-5">
           <h2 className="mt-5 text-xl mb-5">
             Information About Secret Raffle 4U
           </h2>
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl">
+          <p>
             Take your chance to win the world’s biggest jackpots in SE Asia.
             <br />
             At Secret Raffle 4U you can bet on the outcome of the biggest and
@@ -33,7 +33,7 @@ const About = () => {
           <h2 className="mt-5 text-xl mb-5">
             We Have Got A Wide Range of Exciting Games
           </h2>
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl">
+          <p>
             a. Raffle Games just for you to have a chance to win on a daily,
             weekly, monthly and yearly, with raffle payout main jackpot prizes
             starting from $1,500 to $555,555
@@ -63,7 +63,7 @@ const About = () => {
             substantial payout.
           </p>
           <h2 className="mt-5 text-xl mb-5">Want To Know The Finer Details?</h2>
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl">
+          <p>
             Secret Raffle 4U was established in 7th August 2021 and is privately
             owned.
             <br />
@@ -82,7 +82,7 @@ const About = () => {
             We Are in Process for Our Online Gaming License from ST. Vincent and
             The Grenadines eGaming
           </h2>
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl">
+          <p>
             We are registered with and regulated by ST. Vincent and The
             Grenadines Gambling Commission. In order for us to retain these
             licenses we have to prove that we are able to make the required
@@ -97,7 +97,7 @@ const About = () => {
             platform.
           </h2>
           <h2 className="mt-5 text-xl mb-5">Changing Lives Responsibly</h2>
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl">
+          <p>
             We help you to have a chance to dream. Our games are fun and
             exciting, and should always remain so. That's why for us, players
             are the first priority.
@@ -116,7 +116,6 @@ const About = () => {
             <br />
             Secret Raffle 4U Management.
           </h2>
-          </div>
         </div>
       </div>
     </div>
