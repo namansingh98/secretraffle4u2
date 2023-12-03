@@ -16,11 +16,11 @@ const Footer = () => {
         {/* First Column */}
         <div className="w-full flex flex-col items-center justify-center  md:w-1/2 lg:w-1/3 mb-8 md:mb-0">
           <Image src={logo} alt="logo" className="w-[50%] " />
-          <h2 className="text-md  mb-4 text-white">
+          <h2 className="text-md  mb-4 text-center  text-white">
             Website is operated by EU International Gaming Ltd.
           </h2>
         </div>
-
+    
         {/* Second Column */}
         <div className="w-full md:w-1/2 lg:w-1/4 mb-8 md:mb-0">
           <h2 className="text-2xl font-bold mb-4 text-[#F5D148]">

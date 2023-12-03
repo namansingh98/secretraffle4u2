@@ -160,8 +160,7 @@ const Draw = () => {
             src={robinhood2}
             alt="Card Image 1"
             className="mt-4 h-[50%] w-[60%] rounded-xl border-2 border-[#F5D148]"
-            height={"50%"}
-            width={"60%"}
+
           />
         </div>
         <div className="mt-2 text-lg font-bold">
@@ -217,8 +216,6 @@ const Draw = () => {
             src={robinhood3}
             alt="Card Image 1"
             className="mt-4 h-[50%] w-[60%] rounded-xl border-2 border-[#F5D148]"
-            width={"60%"}
-            height={"50%"}
           />
         </div>
         <div className="mt-2 text-lg font-bold">
