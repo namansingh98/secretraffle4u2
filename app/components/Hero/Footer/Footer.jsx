@@ -26,13 +26,13 @@ const Footer = () => {
           <h2 className="text-2xl font-bold mb-4 text-[#F5D148]">
             Information
           </h2>
-          <ul className="list-none text-white text-xl leading-10 font-semibold">
+          <ul className="list-none flex flex-col text-white text-xl leading-10 font-semibold">
             <Link href="/terms">Terms and Condition</Link>
-            <li>Privacy and Policy</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>FAQs</li>
-            <li>Payment Guaranteed Policy</li>
+            <Link href="/privacy">Privacy and Policy</Link>
+            <Link href="/aboutus">About Us</Link> 
+            <Link href="/contactus">Contact Us</Link>
+            <Link href="/faq">FAQs</Link>
+            <Link href="/payment">Payment Guaranteed Policy</Link>
             <Link href="/promotion">Promotions Details</Link>
           </ul>
         </div>
