@@ -50,13 +50,12 @@ const CardSection = () => {
   return (
     <>
 
-     <div className="service_title items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md mb-5 mt-10">
+     <div className=" items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md mb-5 mt-10">
         <Image
           src={horizontalRight}
           alt="right"
           className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]   "
-          height={16}
-          width={70}
+        
         />
         <div className="flex items-center text-sm md:text-md xl:text-xl">
           &nbsp; Various 
@@ -70,8 +69,7 @@ const CardSection = () => {
             src={horizontalLeft}
             alt="left"
             className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]"
-            height={16}
-            width={70}
+        
           />
         </div>
       </div>
@@ -147,8 +145,7 @@ const CardSection = () => {
             src={christmas}
             alt="Card Image 1"
             className="mt-4 h-[50%] w-[60%] rounded-xl border-2 border-[#F5D148]"
-            height={"50%"}
-            width={"60%"}
+        
           />
         </div>
         <div className="mt-2 text-lg font-bold">
@@ -204,8 +201,7 @@ const CardSection = () => {
             src={girl}
             alt="Card Image 1"
             className="mt-4 h-[50%] w-[60%] rounded-xl border-2 border-[#F5D148]"
-            width={"60%"}
-            height={"50%"}
+           
           />
         </div>
         <div className="mt-2 text-lg font-bold">

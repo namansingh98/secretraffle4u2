@@ -1,30 +1,32 @@
 import horizontalLeft from "@/public/horizontal-left.png";
 import horizontalRight from "@/public/horizontal-right.png";
 import deposit_withdraw from "@/public/deposit_withdraw.png";
+import { IoCheckmarkDoneSharp } from "react-icons/io5";
 import Image from "next/image";
 const Explanation = () => {
   return (
     <>
-      <div className="items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md m-10">
-        <Image
-          src={horizontalRight}
-          alt="right"
-          className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]   "
-          width={"40px"}
-          height={"10px"}
-        />
-        <div className="flex items-center text-sm md:text-md xl:text-xl">
-          &nbsp; Easy Steps to Sign-Up and
-          <span className="text-[#F5D148]">
-            &nbsp; get $15 FREE to &#34;Play&#34;
-          </span>
-          &nbsp; &nbsp;{" "}
+      <div className="service_title items-center flex flex-col font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md mb-5 mt-10">
+        <div className="flex justify-center justify-items-center items-center">
+          <Image
+            src={horizontalRight}
+            alt="right"
+            className="w-[40px] h-[10px] md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] "
+          />
+          <div className="sm:block sm:text-center xs:block xs:text-center  lg:flex md:flex  items-center text-md md:text-md xl:text-xl">
+            &nbsp;
+            <div className="flex justify-center ">
+              {" "}
+              &nbsp; Easy Steps to Sign-Up and
+            </div>
+            <div className="text-[#F5D148]">
+               get $15 FREE to &#34;Play&#34; &nbsp;
+            </div>
+          </div>
           <Image
             src={horizontalLeft}
             alt="left"
-            className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]"
-            width={"40px"}
-            height={"10px"}
+            className="w-[40px] h-[10px] md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] "
           />
         </div>
       </div>
@@ -107,8 +109,8 @@ const Explanation = () => {
         </div>
       </div>
       <div className=" flex justify-center items-center flex-col m-8">
-        <div className="w-2/4 text-white text-md leading-7">
-          <h3 className="text-2xl font-semibold">
+        <div className="w-11/12 text-white text-md leading-7">
+          <h3 className="text-2xl text-center font-semibold">
             What is{" "}
             <span className="text-[#F5D148]">&#34;Online Raffle Game&#34;</span>
             ?
@@ -119,6 +121,7 @@ const Explanation = () => {
             at a set time given by the organizers. Our raffle games involve
             several separate prizes from few dozen, few hundred to few thousand.
           </p>
+          <br />
           <ul>
             <li>
               {" "}
@@ -147,10 +150,10 @@ const Explanation = () => {
       </div>
 
       <div className="flex justify-center items-center flex-col m-5">
-        <div className="w-2/4 text-white text-md leading-7">
-          <h3 className="text-2xl font-semibold">
+        <div className="w-11/12 text-white text-md leading-7">
+          <h3 className="text-2xl text-center font-semibold">
             What is the difference between{" "}
-            <span className="text-[#F5D148]">
+            <span className="text-[#F5D148]  ">
               &#34;Raffle Games and Lucky Draw&#34;
             </span>
             ?
@@ -175,8 +178,8 @@ const Explanation = () => {
         </div>
       </div>
       <div className=" flex justify-center items-center flex-col m-5">
-        <div className="w-2/4 text-white text-md leading-7">
-          <h3 className="text-2xl font-semibold">
+        <div className="w-11/12 text-white text-md leading-7">
+          <h3 className="text-2xl text-center font-semibold">
             What is the difference between
             <span className="text-[#F5D148]">
               &#34;Lucky Draw Games and Lottery Games&#34;
@@ -212,72 +215,126 @@ const Explanation = () => {
           </div>
         </div>
       </div>
-      <div className="items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md ">
-        <Image
-          src={horizontalRight}
-          alt="right"
-          className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]   "
-          width={"40px"}
-          height={"10px"}
-        />
-        <div className="flex items-center text-[25px]">
-          &nbsp; Prize Settlement
-          <span className="text-[#F5D148]">
+
+      <div className="service_title items-center flex flex-col font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md mb-5 mt-10">
+        <div className="flex justify-center justify-items-center items-center">
+          <Image
+            src={horizontalRight}
+            alt="right"
+            className="w-[40px] h-[10px] md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] "
+          />
+          <div className="sm:block sm:text-center xs:block xs:text-center  lg:flex md:flex  items-center text-md md:text-md xl:text-xl">
+            &nbsp;
+            <div className="flex justify-center ">
+              {" "}
+              &nbsp; Prize Settlement
+            </div>
+            <div className="text-[#F5D148]">
             &nbsp; &#34;Deposits & Withdrawals &#34;
-          </span>
-          &nbsp; &nbsp;{" "}
+
+            </div>
+          </div>
           <Image
             src={horizontalLeft}
             alt="left"
-            className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]"
-            width={"40px"}
-            height={"10px"}
+            className="w-[40px] h-[10px] md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] "
           />
         </div>
       </div>
-      <div className="flex justify-center items-center flex-col m-10">
-        <div className="flex justify-center items-center w-full">
-          {/* Text on the left */}
-          <div className="w-1/3 text-white text-xl leading-10">
-            <ul>
-              <li>
-                {" "}
-                <span className="text-[#F5D148]">✓</span> Global Debit/Credit
-                Card options.
-              </li>{" "}
-              <li>
-                {" "}
-                <span className="text-[#F5D148]">✓</span> Instant Bank Transfer
-                (Various Countries Only).
-              </li>
-              <li>
-                {" "}
-                <span className="text-[#F5D148]">✓</span> Withdrawal your prize
-                winnings via bank transfer or receive through TransferWise.
-              </li>
-              <li>
-                {" "}
-                <span className="text-[#F5D148]">✓</span> Payment settlements
-                from UK banks, 3–5 working days some countries 24-48 hours.
-              </li>
-              <li>
-                {" "}
-                <span className="text-[#F5D148]">✓</span> All transactions
-                carried out are safe and 100% secured.
-              </li>
-            </ul>
-          </div>
 
-          {/* Image on the right */}
-          <div className="w-1/4  ml-4">
-            <Image
-              src={deposit_withdraw}
-              alt="Description of the image"
-              className="w-full h-auto"
-            />
+
+
+
+      <section className="relative py-20">
+        <div className="container mx-auto px-4">
+          <div className="items-center flex flex-wrap">
+            <div className="w-full md:w-5/12 ml-auto  text-[#D4C07E] mr-auto px-4">
+              <div className="md:pr-12">
+                <h3 className="text-3xl font-semibold">NEW ONLINE METHOD</h3>
+
+                <ul className="list-none mt-6">
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xl text-white font-semibold inline-block py-1 px-2 uppercase  mr-3">
+                          <IoCheckmarkDoneSharp />
+                        </span>
+                      </div>
+                      <div>
+                        <h4>Global Debit/Credit Card options.</h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-white mr-3">
+                          <IoCheckmarkDoneSharp />
+                        </span>
+                      </div>
+                      <div>
+                        <h4>Instant Bank Transfer (Various Countries Only).</h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-white mr-3">
+                          <IoCheckmarkDoneSharp />
+                        </span>
+                      </div>
+                      <div>
+                        <h4>
+                          Withdrawal your prize winnings via bank transfer or
+                          receive through TransferWise.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-white mr-3">
+                          <IoCheckmarkDoneSharp />
+                        </span>
+                      </div>
+                      <div>
+                        <h4>
+                          Payment settlements from UK banks, 3–5 working days
+                          some countries 24-48 hours.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-white mr-3">
+                          <IoCheckmarkDoneSharp />
+                        </span>
+                      </div>
+                      <div>
+                        <h4>
+                          All transactions carried out are safe and 100%
+                          secured..
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+              <Image
+                alt="deposite_withdrawl"
+                className="max-w-full rounded-lg shadow-lg"
+                src={deposit_withdraw}
+              />
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

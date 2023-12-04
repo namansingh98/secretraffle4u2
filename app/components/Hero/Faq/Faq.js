@@ -28,7 +28,7 @@ export default function Faq() {
 
     
     </div>
-    <div className="w-[86%] m-auto  p-10 border border-[#CEB776] rounded-3xl ">
+    <div className="w-10/12 m-auto px-3 py-2  border border-[#CEB776] rounded-3xl ">
       {accordionData.map(({ title, content }) => (
           <Accordion title={title} key={title} content={content} />
         ))}

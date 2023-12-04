@@ -70,27 +70,36 @@ const Testimonials = () => {
     </div>
 
 
-    <div className="items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-xl ">
-        <Image
-          src={horizontalRight}
-          alt="right"
-          className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]   "
-        />
-        <div className="flex items-center">
-          &nbsp; Sign-up Bonus
-          <span className="text-[#F5D148]">
-            &nbsp; &#34;DOUBLE YOUR MONEY &#34;
-          </span>
-          &nbsp; &nbsp;{" "}
+
+
+    <div className="items-center flex flex-col font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md mb-5 mt-10">
+        <div className="flex justify-center justify-items-center items-center">
+          <Image
+            src={horizontalRight}
+            alt="right"
+            className="w-[40px] h-[10px] md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] "
+          />
+          <div className="sm:block sm:text-center xs:block xs:text-center  lg:flex md:flex  items-center text-md md:text-md xl:text-xl">
+            &nbsp;
+            <div className="flex justify-center ">
+              {" "}
+              &nbsp; Easy Steps to Sign-Up and
+            </div>
+            <div className="text-[#F5D148]">
+               get $15 FREE to &#34;Play&#34; &nbsp;
+            </div>
+          </div>
           <Image
             src={horizontalLeft}
             alt="left"
-            className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]"
+            className="w-[40px] h-[10px] md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] "
           />
         </div>
       </div>
+
       <div className="flex items-center justify-center m-5">
       <Image src={signUp} alt="sign" className="w-11/12 md:w-1/2 xl:w-1/2"/>
+ 
       </div>
     </>
   );
