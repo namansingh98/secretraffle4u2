@@ -102,12 +102,12 @@ const Reward = () => {
           </div>
         </div>
       </div>
-      <div className="mt-20 w-full  h-full ">
+      <div className="mt-20 w-full text-center h-full ">
         <div className="reward_title  relative reward_cover_imgs mt-10">
           <Image
             src={bgshape}
             alt="bgshape"
-            className="absolute left-0 bottom-0 w-[18%] -z-[1]"
+            className="absolute left-0 bottom-0 w-[18%] -z-[1] "
           />
           <Image
             src={bgshape2}
@@ -115,17 +115,16 @@ const Reward = () => {
             className="absolute right-0 bottom-0 w-[5%] -z-[1]"
           />
 
-          <div className=" flex justify-center items-center mt-20">
-            <h1 className="text-6xl font-bold reward_heading flex justify-center items-center gap-2">
+          <div className=" flex text-center justify-center items-center mt-20">
+            <h1 className="md:text-6xl text-2xl  font-bold reward_heading flex justify-center items-center gap-2">
               <Image
                 src={right}
                 alt="right"
-                className=""
-                width={200}
-                height={10}
+                className="md:block hidden"
+               
               />
               Commision <span className="reward_sub"> Rules</span>
-              <Image src={left} alt="left" width={200} height={10} />
+              <Image src={left} alt="left" className="md:block hidden"  />
             </h1>
           </div>
           <div className=" flex m-20 justify-center items-center text-white font-semibold text-xl">
@@ -165,7 +164,7 @@ const Reward = () => {
           </div>
         </div>
       </div>
-      <div className="mt-20 ">
+      <div className="mt-20 text-center">
         <div className="flex justify-center items-center">
           <h1 className="reward_heading flex justify-center items-center font-semibold text-6xl relative ">
             <Image src={right} alt="right" />
@@ -178,8 +177,8 @@ const Reward = () => {
           </h1>
         </div>
       </div>
-      <div className="mt-20 flex justify-center justify-items-center">
-        <div className="flex  items-center">
+      <div className="mt-20 flex md:flex-row flex-col justify-center text-center justify-items-center">
+        <div className="flex md:flex-row flex-col items-center">
           <h1 className="text-8xl font-semibold reward_heading">
             Level <span className="reward_sub font-bold">1</span>{" "}
           </h1>
@@ -215,8 +214,8 @@ const Reward = () => {
         </div>
       </div>
 
-      <div className="mt-20 flex justify-center justify-items-center">
-        <div className="flex  items-center">
+      <div className="mt-20 flex justify-center text-center justify-items-center">
+        <div className="flex md:flex-row flex-col items-center">
           <h1 className="text-8xl font-semibold reward_heading">
             Level <span className="reward_sub font-bold">2</span>{" "}
           </h1>
@@ -260,8 +259,8 @@ const Reward = () => {
           </div>
         </div>
       </div>
-      <div className="mt-20 flex justify-center justify-items-center">
-        <div className="flex  items-center">
+      <div className="mt-20 flex justify-center text-center justify-items-center">
+        <div className="flex md:flex-row flex-col  items-center">
           <h1 className="text-8xl font-semibold reward_heading">
             Level <span className="reward_sub font-bold">3</span>{" "}
           </h1>
@@ -305,8 +304,8 @@ const Reward = () => {
           </div>
         </div>
       </div>
-      <div className="mt-20 flex justify-center justify-items-center">
-        <div className="flex  items-center">
+      <div className="mt-20 flex text-center justify-center justify-items-center">
+        <div className="flex md:flex-row flex-col  items-center">
           <h1 className="text-8xl font-semibold reward_heading">
             Level <span className="reward_sub font-bold">4</span>{" "}
           </h1>
@@ -350,8 +349,8 @@ const Reward = () => {
           </div>
         </div>
       </div>
-      <div className="mt-20 flex justify-center justify-items-center">
-        <div className="flex  items-center">
+      <div className="mt-20 text-center flex justify-center justify-items-center">
+        <div className="flex md:flex-row flex-col  items-center">
           <h1 className="text-8xl font-semibold reward_heading">
             Level <span className="reward_sub font-bold">5</span>{" "}
           </h1>
@@ -395,12 +394,12 @@ const Reward = () => {
           </div>
         </div>
       </div>
-      <div className="mt-20 ">
-        <div className="flex justify-center items-center">
+      <div className="mt-20 text-center ">
+        <div className="flex  justify-center items-center">
           <h1 className="reward_heading gap-2 font-semibold text-4xl relative flex justify-center items-center mb-2">
-            <Image src={bgshape4} alt="shape" />
+            <Image src={bgshape4} alt="shape" className="hidden md:block" />
             Enjoy Earning Referral Commission With Us
-            <Image src={bgshape3} alt="shape" />
+            <Image src={bgshape3} alt="shape" className="hidden md:block"/>
           </h1>
         </div>
         <div className="subtext flex justify-center items-center justify-items-center text-white font-semibold ">
@@ -427,12 +426,12 @@ const Reward = () => {
           </ul>
         </div>
       </div>
-      <div className="mt-20 ">
-        <div className="flex justify-center items-center">
+      <div className="mt-20 text-center">
+        <div className="flex justify-center text-center items-center">
           <h1 className="reward_heading font-semibold text-4xl relative flex justify-center items-center gap-2 mb-2">
-            <Image src={bgshape4} alt="shape" />
+            <Image src={bgshape4} alt="shape" className="hidden md:block"/>
             Secret Raffle 4U VIP Members Club
-            <Image src={bgshape3} alt="shape" />
+            <Image src={bgshape3} alt="shape" className="hidden md:block" />
           </h1>
         </div>
         <div className="subtext flex justify-center items-center justify-items-center text-white font-semibold ">
@@ -446,12 +445,12 @@ const Reward = () => {
           </div>
         </div>
       </div>
-      <div className="mt-20 ">
+      <div className="mt-20 text-center">
         <div className="flex justify-center items-center">
           <h1 className="reward_sub font-semibold text-4xl relative flex justify-center items-center gap-2 mb-2">
-            <Image src={bgshape4} alt="shape" />
+            <Image src={bgshape4} alt="shape" className="hidden md:block" />
             VIP Membership Bonus
-            <Image src={bgshape3} alt="shape" />
+            <Image src={bgshape3} alt="shape" className="hidden md:block"/>
           </h1>
         </div>
         <div className="flex text-center justify-items-center justify-center text-white">
@@ -497,30 +496,13 @@ const Reward = () => {
           </h2>
         </div>
       </div>
-      <div className="mt-20 ">
+      
+      <div className="mt-20 text-center">
         <div className="flex justify-center items-center">
           <h1 className="reward_sub font-semibold text-4xl relative flex justify-center items-center gap-2 mb-2">
-            <Image src={bgshape4} alt="shape" />
+            <Image src={bgshape4} alt="shape" className="hidden md:block"/>
             Secret Raffle 4U VIP Members Club
-            <Image src={bgshape3} alt="shape" />
-          </h1>
-        </div>
-        <div className="subtext flex justify-center items-center justify-items-center text-white font-semibold ">
-          <h2>
-            To become a VIP Member, please contact support who will create you a
-            Gold Account.
-            <br />
-            Increase your VIP Level and experience rich rewards and taste of the
-            VIP high life.
-          </h2>
-        </div>
-      </div>
-      <div className="mt-20 ">
-        <div className="flex justify-center items-center">
-          <h1 className="reward_sub font-semibold text-4xl relative flex justify-center items-center gap-2 mb-2">
-            <Image src={bgshape4} alt="shape" />
-            Secret Raffle 4U VIP Members Club
-            <Image src={bgshape3} alt="shape" />
+            <Image src={bgshape3} alt="shape" className="hidden md:block" />
           </h1>
         </div>
         <div className="subtext flex justify-center flex-col items-center  text-white font-semibold ">
@@ -530,7 +512,7 @@ const Reward = () => {
             <br />
             Increase your VIP Level and experience rich rewards and taste of the
             VIP high life.
-          </h2>
+          </h2>npm iu
           <a href="/signup">
             <button
               type="button"

@@ -53,7 +53,7 @@ const Draw = () => {
         <Image src={luckyimg} alt="luckyimg"/>
       <div className="w-full mt-2 flex justify-center">
         <div className="wrapper_box text-center  w-10/12 ">
-          <h1 className=" md:text-4xl lg:text-8xl mt-5 sm:text-2xl   draw_heading">SECRET RAFFLE 4U</h1>
+          <h1 className=" text-[30px] md:text-6xl   draw_heading">SECRET RAFFLE 4U</h1>
           <span className="text-[#D4C07E] ">
             <h3>
               This is the most exciting online Lucky Draw Game Website in Asia.
