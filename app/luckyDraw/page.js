@@ -7,7 +7,7 @@ import Image from "next/image";
 import horizontalLeft from "@/public/horizontal-left-white.png";
 import horizontalRight from "@/public/horizontal-right.png";
 import girl from "@/public/girl.png";
-
+import luckyimg from "@/public/banner1.png"
 const Draw = () => {
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
 
@@ -50,9 +50,10 @@ const Draw = () => {
 
   return (
     <>
+        <Image src={luckyimg} alt="luckyimg"/>
       <div className="w-full mt-2 flex justify-center">
         <div className="wrapper_box text-center  w-10/12 ">
-          <h1 className="text-8xl draw_heading">SECRET RAFFLE 4U</h1>
+          <h1 className=" md:text-4xl lg:text-8xl mt-5 sm:text-2xl   draw_heading">SECRET RAFFLE 4U</h1>
           <span className="text-[#D4C07E] ">
             <h3>
               This is the most exciting online Lucky Draw Game Website in Asia.
