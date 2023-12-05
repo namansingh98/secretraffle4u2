@@ -9,7 +9,7 @@ import Link from "next/link";
 const Contactus = () => {
   return (
     <div className="Promotions flex flex-col flex-wrap content-center justify-items-center mt-10">
-      <div className="w-full sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-7/12 mx-auto">
+      <div className="w-full sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-7/12 flex justify-center items-center">
         <Image src={contactusimg} alt="Contact us" />
       </div>
 

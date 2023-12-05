@@ -14,8 +14,8 @@ const index = () => {
           <div className="Hero_welcome_text text-3xl font-medium">
             <h4>Welcome To</h4>
           </div>
-          <div className="Hero_Sub_text text-[30px]  text-center font-bold mt-5">
-            <h1>SECRET RAFFLE 4U</h1>
+          <div className="Hero_Sub_text   text-center font-bold mt-5">
+            <h1 className="md:text-7xl text-2xl">SECRET RAFFLE 4U</h1>
           </div>
           <div className="mt-5 Hero_para text-[20px] text-center max-w-6xl  font-semibold w-8/12">
             <p>
