@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import valan from "@/public/valantines.jpg";
-import christmas from "@/public/christmas.jpg";
+import christmas from "@/public/christmas2.jpg";
 import girl from "@/public/girl.png";
 import horizontalLeft from "@/public/horizontal-left.png";
 import horizontalRight from "@/public/horizontal-right.png";
