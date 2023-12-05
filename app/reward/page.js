@@ -57,57 +57,59 @@ const Reward = () => {
                 className="w-[10%] object-fill h-[10%]"
               />
             </div>
-            <div className="flex justify-center items-center p-10">
-              <table className="w-4/5 rounded-t-xl  text-center table-auto">
-                <thead className="thead_none" style={{ border: "none" }}>
-                  <tr className="reward_table_heading text-[#252525]">
-                    <th className="border px-4 py-2 rounded-t-xl">
-                      Level Upgrade Requirements
-                    </th>
-                    <th className="border px-4 py-2 rounded-t-xl">Level 1</th>
-                    <th className="border px-4 py-2 rounded-t-xl">Level 2</th>
-                    <th className="border px-4 py-2 rounded-t-xl">Level 3</th>
-                    <th className="border px-4 py-2 rounded-t-xl">Level 4</th>
-                    <th className="border px-4 py-2 rounded-t-xl">Level 5</th>
-                  </tr>
-                </thead>
-                <tbody className="text-white">
-                  <tr>
-                    <td className="border px-4 py-2">Monthly Commission</td>
-                    <td className="border px-4 py-2">1%</td>
-                    <td className="border px-4 py-2">1.5%</td>
-                    <td className="border px-4 py-2">2%</td>
-                    <td className="border px-4 py-2">2.5%</td>
-                    <td className="border px-4 py-2">3%</td>
-                  </tr>
-                  <tr>
-                    <td className="border px-4 py-2">Monthly Deposit</td>
-                    <td className="border px-4 py-2">N/A</td>
-                    <td className="border px-4 py-2">$60,000</td>
-                    <td className="border px-4 py-2">$90,000</td>
-                    <td className="border px-4 py-2">$120,000</td>
-                    <td className="border px-4 py-2">$155,555</td>
-                  </tr>
-                  <tr>
-                    <td className="border px-4 py-2">Minimum Players</td>
-                    <td className="border px-4 py-2">1 - 1,000</td>
-                    <td className="border px-4 py-2">1,001 - 2,000</td>
-                    <td className="border px-4 py-2">2,001 - 3,000</td>
-                    <td className="border px-4 py-2">3,001 - 4,000</td>
-                    <td className="border px-4 py-2">4,001 - 5,555</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div className="flex justify-center items-center p-5 m-5 overflow-x-auto">
+              <div className="w-full sm:w-4/5">
+                <table className="w-full rounded-t-xl text-center table-auto">
+                  <thead className="thead_none" style={{ border: "none" }}>
+                    <tr className="reward_table_heading text-[#252525]">
+                      <th className="border px-4 py-2 rounded-t-xl">
+                        Level Upgrade Requirements
+                      </th>
+                      <th className="border px-4 py-2 rounded-t-xl">Level 1</th>
+                      <th className="border px-4 py-2 rounded-t-xl">Level 2</th>
+                      <th className="border px-4 py-2 rounded-t-xl">Level 3</th>
+                      <th className="border px-4 py-2 rounded-t-xl">Level 4</th>
+                      <th className="border px-4 py-2 rounded-t-xl">Level 5</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-white">
+                    <tr>
+                      <td className="border px-4 py-2">Monthly Commission</td>
+                      <td className="border px-4 py-2">1%</td>
+                      <td className="border px-4 py-2">1.5%</td>
+                      <td className="border px-4 py-2">2%</td>
+                      <td className="border px-4 py-2">2.5%</td>
+                      <td className="border px-4 py-2">3%</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-4 py-2">Monthly Deposit</td>
+                      <td className="border px-4 py-2">N/A</td>
+                      <td className="border px-4 py-2">$60,000</td>
+                      <td className="border px-4 py-2">$90,000</td>
+                      <td className="border px-4 py-2">$120,000</td>
+                      <td className="border px-4 py-2">$155,555</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-4 py-2">Minimum Players</td>
+                      <td className="border px-4 py-2">1 - 1,000</td>
+                      <td className="border px-4 py-2">1,001 - 2,000</td>
+                      <td className="border px-4 py-2">2,001 - 3,000</td>
+                      <td className="border px-4 py-2">3,001 - 4,000</td>
+                      <td className="border px-4 py-2">4,001 - 5,555</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="mt-20 w-full text-center h-full ">
-        <div className="reward_title  relative reward_cover_imgs mt-10">
+      <div className="mt-20 text-center">
+        <div className="reward_title relative reward_cover_imgs mt-10">
           <Image
             src={bgshape}
             alt="bgshape"
-            className="absolute left-0 bottom-0 w-[18%] -z-[1] "
+            className="absolute left-0 bottom-0 w-[18%] -z-[1]"
           />
           <Image
             src={bgshape2}
@@ -115,20 +117,16 @@ const Reward = () => {
             className="absolute right-0 bottom-0 w-[5%] -z-[1]"
           />
 
-          <div className=" flex text-center justify-center items-center mt-20">
-            <h1 className="md:text-6xl text-2xl  font-bold reward_heading flex justify-center items-center gap-2">
-              <Image
-                src={right}
-                alt="right"
-                className="md:block hidden"
-               
-              />
-              Commision <span className="reward_sub"> Rules</span>
-              <Image src={left} alt="left" className="md:block hidden"  />
+          <div className="flex justify-center items-center mt-20">
+            <h1 className="md:text-6xl text-2xl font-bold reward_heading flex justify-center items-center gap-2">
+              <Image src={right} alt="right" className="md:block hidden" />
+              Commission <span className="reward_sub">Rules</span>
+              <Image src={left} alt="left" className="md:block hidden" />
             </h1>
           </div>
-          <div className=" flex m-20 justify-center items-center text-white font-semibold text-xl">
-            <div className="w-3/4 ">
+
+          <div className="flex mx-4 mt-10 justify-center items-center text-white font-semibold text-xl">
+            <div className="w-full md:w-3/4">
               <ul>
                 <li className="mb-10 flex">
                   <Image
@@ -138,8 +136,8 @@ const Reward = () => {
                   />
                   To earn commission, all the players under you have to deposit
                   $50 by the 7th of each month. Commission will be calculated
-                  last week of each month and then deposited to your
-                  playersaccount.
+                  last week of each month and then deposited to your players
+                  account.
                 </li>
                 <li className="mb-10 flex">
                   <Image
@@ -147,23 +145,26 @@ const Reward = () => {
                     alt="icon"
                     className="w-[30px] h-[30px] mr-5"
                   />
-                  If you have 1,000 players under you. Minimum 10% of players
-                  must deposit $50 before the 7th of each month to be eligible
-                  for commission. 900+ players minimum to receive commission.
+                  If you have 1,000 players under you, a minimum of 10% of
+                  players must deposit $50 before the 7th of each month to be
+                  eligible for commission. 900+ players minimum to receive
+                  commission.
                 </li>
                 <li className="mb-10 flex">
                   <Image
                     src={icon}
                     alt="icon"
-                    className="w-[30px] h-[30px] mr-5"
+                    className="w-[30px] h-[30px] absolute bottom-5 mr-5"
                   />
-                  For example: If 899 make deposit, commission will be canceled.
+                  For example: If 899 make a deposit, commission will be
+                  canceled.
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
+
       <div className="mt-20 text-center">
         <div className="flex justify-center items-center">
           <h1 className="reward_heading flex justify-center items-center font-semibold text-6xl relative ">
@@ -399,7 +400,7 @@ const Reward = () => {
           <h1 className="reward_heading gap-2 font-semibold text-4xl relative flex justify-center items-center mb-2">
             <Image src={bgshape4} alt="shape" className="hidden md:block" />
             Enjoy Earning Referral Commission With Us
-            <Image src={bgshape3} alt="shape" className="hidden md:block"/>
+            <Image src={bgshape3} alt="shape" className="hidden md:block" />
           </h1>
         </div>
         <div className="subtext flex justify-center items-center justify-items-center text-white font-semibold ">
@@ -429,7 +430,7 @@ const Reward = () => {
       <div className="mt-20 text-center">
         <div className="flex justify-center text-center items-center">
           <h1 className="reward_heading font-semibold text-4xl relative flex justify-center items-center gap-2 mb-2">
-            <Image src={bgshape4} alt="shape" className="hidden md:block"/>
+            <Image src={bgshape4} alt="shape" className="hidden md:block" />
             Secret Raffle 4U VIP Members Club
             <Image src={bgshape3} alt="shape" className="hidden md:block" />
           </h1>
@@ -450,7 +451,7 @@ const Reward = () => {
           <h1 className="reward_sub font-semibold text-4xl relative flex justify-center items-center gap-2 mb-2">
             <Image src={bgshape4} alt="shape" className="hidden md:block" />
             VIP Membership Bonus
-            <Image src={bgshape3} alt="shape" className="hidden md:block"/>
+            <Image src={bgshape3} alt="shape" className="hidden md:block" />
           </h1>
         </div>
         <div className="flex text-center justify-items-center justify-center text-white">
@@ -496,11 +497,11 @@ const Reward = () => {
           </h2>
         </div>
       </div>
-      
+
       <div className="mt-20 text-center">
         <div className="flex justify-center items-center">
           <h1 className="reward_sub font-semibold text-4xl relative flex justify-center items-center gap-2 mb-2">
-            <Image src={bgshape4} alt="shape" className="hidden md:block"/>
+            <Image src={bgshape4} alt="shape" className="hidden md:block" />
             Secret Raffle 4U VIP Members Club
             <Image src={bgshape3} alt="shape" className="hidden md:block" />
           </h1>
@@ -512,7 +513,8 @@ const Reward = () => {
             <br />
             Increase your VIP Level and experience rich rewards and taste of the
             VIP high life.
-          </h2>npm iu
+          </h2>
+          npm iu
           <a href="/signup">
             <button
               type="button"
