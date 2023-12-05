@@ -25,42 +25,42 @@ function Nav() {
                 <div className="ml-10 flex items-baseline space-x-4">
                   <Link
                     href="/"
-                    className="  text-white px-3 py-2 rounded-md text-xl font-medium"
+                    className="  text-white px-3 py-2 rounded-md md:text-xl text-sm font-medium"
                   >
                     Home
                   </Link>
 
                   <Link
                     href="/luckyDraw"
-                    className="text-white px-3 py-2 rounded-md text-xl font-medium"
+                    className="text-white px-3 py-2 rounded-md md:text-xl text-sm font-medium"
                   >
                     Lucky Draw Games
                   </Link>
 
                   <Link
                     href="/secretcards"
-                    className="text-white px-3 py-2 rounded-md text-xl font-medium"
+                    className="text-white px-3 py-2 rounded-md md:text-xl text-sm font-medium"
                   >
                     Scratch Card
                   </Link>
 
                   <Link
                     href="/gameExplanation"
-                    className="text-white px-3 py-2 rounded-md text-xl font-medium"
+                    className="text-white px-3 py-2 rounded-md md:text-xl text-sm font-medium"
                   >
                     Game Explanation
                   </Link>
 
                   <Link
                     href="/reward"
-                    className="text-white px-3 py-2 rounded-md text-xl font-medium"
+                    className="text-white px-3 py-2 rounded-md md:text-xl text-sm font-medium"
                   >
                     Rewards
                   </Link>
 
                   <Link
                     href="/login"
-                    className="text-white px-3 py-2 rounded-md text-xl font-medium"
+                    className="text-white px-3 py-2 rounded-md md:text-xl text-sm font-medium"
                   >
                     Register/Login
                   </Link>

@@ -18,6 +18,7 @@ const Slider = () => {
         className="mySwiper"
         autoplay
         loop
+        
       >
         <SwiperSlide>
           <Image src={banner1} alt="banner-1" />
