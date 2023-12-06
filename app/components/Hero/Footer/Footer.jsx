@@ -23,10 +23,10 @@ const Footer = () => {
     
         {/* Second Column */}
         <div className="w-full md:w-1/2 lg:w-1/4 mb-8 md:mb-0">
-          <h2 className="text-2xl font-bold mb-4 text-[#F5D148]">
+          <h2 className="text-2xl font-bold pl-3 mb-4 text-[#F5D148]">
             Information
           </h2>
-          <ul className="list-none flex flex-col text-white text-xl leading-10 font-semibold">
+          <ul className="list-none flex flex-col text-white text-xl leading-10 font-semibold pl-3">
             <Link href="/terms">Terms and Condition</Link>
             <Link href="/privacy">Privacy and Policy</Link>
             <Link href="/aboutus">About Us</Link> 
@@ -40,7 +40,7 @@ const Footer = () => {
         {/* Third Column */}
         <div className="w-full md:w-1/2 lg:w-1/3 flex flex-col ">
           {/* First Row */}
-          <div className="flex flex-col flex-wrap items-center mb-4">
+          <div className="flex flex-col flex-wrap items-center mb-4 ml-4">
             <h2 className="text-2xl  text-[#F5D148]  font-bold mr-4">
               Security & Game Integrity
             </h2>

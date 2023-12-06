@@ -105,19 +105,19 @@ const Reward = () => {
         </div>
       </div>
       <div className="mt-20 text-center">
-        <div className="reward_title relative reward_cover_imgs mt-10">
+        <div className="reward_title relative reward_cover_imgs mt-10 mb-10 h-[90vh] md:h-full">
           <Image
             src={bgshape}
             alt="bgshape"
-            className="absolute left-0 bottom-0 w-[18%] -z-[1]"
+            className="absolute left-0 bottom-0 w-[18%] "
           />
           <Image
             src={bgshape2}
             alt="bgshape2"
-            className="absolute right-0 bottom-0 w-[5%] -z-[1]"
+            className="absolute right-0 bottom-0 w-[5%] "
           />
 
-          <div className="flex justify-center items-center mt-20">
+          <div className="flex min-h-max  justify-center items-center mt-20">
             <h1 className="md:text-6xl text-2xl font-bold reward_heading flex justify-center items-center gap-2">
               <Image src={right} alt="right" className="md:block hidden" />
               Commission <span className="reward_sub">Rules</span>
@@ -150,11 +150,11 @@ const Reward = () => {
                   eligible for commission. 900+ players minimum to receive
                   commission.
                 </li>
-                <li className="mb-10 flex">
+                <li className="mb-10 flex text-cetner">
                   <Image
                     src={icon}
                     alt="icon"
-                    className="w-[30px] h-[30px] absolute bottom-5 mr-5"
+                    className="w-[30px] h-[30px]  mr-5"
                   />
                   For example: If 899 make a deposit, commission will be
                   canceled.
@@ -189,7 +189,7 @@ const Reward = () => {
               {" "}
               RECRUIT
             </span>
-            <div className="mt-5 text-white">
+            <div className="mt-5 text-white pl-2">
               <ul>
                 <li className="mb-10 flex justify-start">
                   <Image
@@ -215,7 +215,7 @@ const Reward = () => {
         </div>
       </div>
 
-      <div className="mt-20 flex justify-center text-center justify-items-center">
+      <div className="mt-20 flex justify-center justify-items-center pl-2">
         <div className="flex md:flex-row flex-col items-center">
           <h1 className="text-8xl font-semibold reward_heading">
             Level <span className="reward_sub font-bold">2</span>{" "}
@@ -260,7 +260,7 @@ const Reward = () => {
           </div>
         </div>
       </div>
-      <div className="mt-20 flex justify-center text-center justify-items-center">
+      <div className="mt-20 flex justify-center  justify-items-center ">
         <div className="flex md:flex-row flex-col  items-center">
           <h1 className="text-8xl font-semibold reward_heading">
             Level <span className="reward_sub font-bold">3</span>{" "}
@@ -271,7 +271,7 @@ const Reward = () => {
               {" "}
               Pro
             </span>
-            <div className="mt-5 text-white">
+            <div className="mt-5 text-white pl-2">
               <ul>
                 <li className="mb-10 flex justify-start">
                   <Image
@@ -316,7 +316,7 @@ const Reward = () => {
               {" "}
               CHAMPION
             </span>
-            <div className="mt-5 text-white">
+            <div className="mt-5 text-white pl-2">
               <ul>
                 <li className="mb-10 flex justify-start">
                   <Image
@@ -361,7 +361,7 @@ const Reward = () => {
               {" "}
               HALL OF FAMER
             </span>
-            <div className="mt-5 text-white">
+            <div className="mt-5 text-white pl-2">
               <ul>
                 <li className="mb-10 flex justify-start">
                   <Image
@@ -403,7 +403,7 @@ const Reward = () => {
             <Image src={bgshape3} alt="shape" className="hidden md:block" />
           </h1>
         </div>
-        <div className="subtext flex justify-center items-center justify-items-center text-white font-semibold ">
+        <div className="subtext flex justify-center items-center justify-items-center text-white font-semibold  pl-2">
           <ul>
             <li className="flex mb-2">
               <Image
@@ -490,7 +490,7 @@ const Reward = () => {
             </li>
           </ul>
         </div>
-        <div className="flex text-white justify-center">
+        <div className="flex text-white justify-center pl-2">
           <h2>
             For more information on the VIP bonus, please contact support to
             activate your VIP Membership
@@ -507,7 +507,7 @@ const Reward = () => {
           </h1>
         </div>
         <div className="subtext flex justify-center flex-col items-center  text-white font-semibold ">
-          <h2>
+          <h2 className="p-2">
             To become a VIP Member, please contact support who will create you a
             Gold Account.
             <br />
