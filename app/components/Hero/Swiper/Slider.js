@@ -20,8 +20,8 @@ const Slider = () => {
         loop
         
       >
-        <SwiperSlide>
-          <Image src={banner1} alt="banner-1" />
+        <SwiperSlide >
+          <Image src={banner1} alt="banner-1" className="md:h-5/6 h-fit"/>
         </SwiperSlide>
         <SwiperSlide>
           <Image src={banner2} alt="banner-2" />
