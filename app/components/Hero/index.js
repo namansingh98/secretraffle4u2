@@ -4,7 +4,6 @@ import Faq from "./Faq/Faq";
 import Testimonials from "./Testimonials/Testimonials";
 import Explanation from "./Explanaittion/Explanation";
 import CardCounter from "./Counter/CardCounter";
-
 const index = () => {
   return (
     <>
@@ -29,7 +28,7 @@ const index = () => {
       <div className="Hero_Video  flex  justify-center m-5">
         <div className="w-10/12 md:1/2 xl:w-3/5">
           <video
-            src="https://secretraffle4u.com/assets/video/welcome.mp4"
+            src="/welcome.mp4"
             controls
           />
         </div>

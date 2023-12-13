@@ -144,9 +144,11 @@ const Cards = () => {
         />
       </div>
       <div className="flex flex-wrap justify-center">
-        {cardsData.map((card, index) => (
-          <Card key={index} {...card} />
-        ))}
+      {cardsData.map((card, index) => {
+  console.log('Card Data:', card); // Add this line
+  return <Card key={index} {...card} />;
+})}
+
       </div>
     </section>
   );
