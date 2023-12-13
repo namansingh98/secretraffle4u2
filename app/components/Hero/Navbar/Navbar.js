@@ -25,7 +25,7 @@ function Nav() {
                 <div className="ml-10 flex items-baseline space-x-4">
                   <Link
                     href="/"
-                    className=" text-white px-3 py-2 rounded-md md:text-xl text-sm font-medium"
+                    className="  text-white px-3 py-2 rounded-md md:text-xl  text-md font-medium"
                   >
                     Home
                   </Link>
