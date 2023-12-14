@@ -21,13 +21,13 @@ const Slider = () => {
         
       >
         <SwiperSlide >
-          <Image src={banner1} alt="banner-1" className="md:h-5/6 h-fit"/>
+          <Image src={banner1} alt="banner-1" priority={true} className="md:h-5/6 h-fit"/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner2} alt="banner-2" />
+          <Image src={banner2} alt="banner-2" priority={true}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={banner3} alt="banner-3" />
+          <Image src={banner3} alt="banner-3" priority={true}/>
         </SwiperSlide>
       </Swiper>
     </div>

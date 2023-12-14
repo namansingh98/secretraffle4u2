@@ -18,13 +18,13 @@ const Testimonials = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 767);
+      if (typeof window !== 'undefined') {
+        setIsMobile(window.innerWidth <= 767);
+      }
     };
-
-    // Attach the event listener
+  
     window.addEventListener("resize", handleResize);
-
-    // Detach the event listener on component unmount
+  
     return () => {
       window.removeEventListener("resize", handleResize);
     };
