@@ -4,7 +4,14 @@ import Faq from "./Faq/Faq";
 import Testimonials from "./Testimonials/Testimonials";
 import Explanation from "./Explanaittion/Explanation";
 import CardCounter from "./Counter/CardCounter";
+import dynamic from "next/dynamic";
+
+const CardSectionDynamic = dynamic(() => import("./Counter/CardCounter"), {
+    ssr: false,
+  });
 const index = () => {
+  
+
   return (
     <>
       <Slider />
@@ -27,14 +34,11 @@ const index = () => {
       </div>
       <div className="Hero_Video  flex  justify-center m-5">
         <div className="w-10/12 md:1/2 xl:w-3/5">
-          <video
-            src="/welcome.mp4"
-            controls
-          />
+          <video src="/welcome.mp4" controls />
         </div>
       </div>
       <ServiceCard />
-      <CardCounter />
+      <CardSectionDynamic />
       <Explanation />
       <Testimonials />
       <Faq />
